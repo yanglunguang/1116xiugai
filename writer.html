@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=false">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="APP-logo.png"/>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+    <title>LOOK</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.0.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--<link rel="stylesheet" href="bgimg.css"/>-->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/jquery.mobile-1.0.min.js"></script>
+
+
+    <script src="js/min/jquery-v1.10.2.min.js"></script>
+    <script src="js/min/modernizr-custom-v2.7.1.min.js"></script>
+    <script src="js/min/jquery-finger-v0.1.0.min.js"></script>
+    <script src="js/min/flickerplate.min.js"></script>
+    <script src="js/style.js"></script>
+    <link href="css/flickerplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header" style="height: 45px;line-height:45px; background: #232428;position: fixed;z-index: 99">
+        <div class="writer-header-font"><p class="p-style-writer">社区</p></div>
+    </div>
+    <div data-role="content" style="padding: 5px 10px; margin-top: 50px;">
+        <div class="seach">
+            <div class="position">
+                <div class="discover-header-seach-icon"></div>
+                <span class="discover-header-seach-font" >&nbsp;搜索小组、活动</span>
+
+        </div>
+    </div>
+    </div>
+    <div class="writer-pro-1 w-400px">
+         <div class="cantainer">
+             <span class="float-l">热门小组、活动</span>
+             <span class="float-r">查看全部</span>
+             <div class="writer-pro-1-div-1" id="bg-1"></div>
+             <div class="writer-pro-1-div-2" id="bg-2"></div>
+         </div>
+    </div>
+    <div class="writer-2  w-400px">
+        <div class="writer-2-top"><p>我参加的小组和活动</p></div>
+        <div class="writer-2-bottom"><p>还没参加任何小组和活动，点我发现更多</p></div>
+    </div>
+    <div class="banner w-400px">
+        <div class="flicker-example">
+            <ul>
+                <li data-background="img/writer-show.jpg" style="background-image: url("/img/writer-show.jpg")"></li>
+                <li data-background="img/writer-show-2.jpg" style="background-image: url("/img/writer-show-2.jpg")"></li>
+                <li data-background="img/writer-show-3.jpg" style="background-image: url("/img/writer-show-3.jpg")">
+                <!--<div class="flick-title">Title 3</div>-->
+                <!--<div class="flick-sub-text">Text line 3</div>-->
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $(".flicker-example").flicker();
+            });
+        </script>
+        <div class="writer-3  w-500px"></div>
+    </div>
+    <div class="w-400px">
+        <div class="cantainer">
+            <div class="writer-pro-1-div-1" id="bg-3"></div>
+            <div class="writer-pro-1-div-2" id="bg-4"></div>
+        </div>
+    </div>
+    <div data-role="footer"  style="background: #232428;position: fixed;bottom: 0">
+        <div class="ui-grid-c" style="height: 45px;font-weight: 300;text-align: center;line-height:14px;font-family: Helvetica,Arial,sans-serif;font-size:0.8em;" >
+            <div class="ui-block-a" style="margin-top: 8px;"><a href="index.html"  data-transition="fade" style="color: #ffffff;"><span style="font-size: 1.6em;font-weight: 100;">L</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">推荐</span></a></div>
+            <div class="ui-block-b" style="margin-top: 8px;"><a href="discover.html" data-transition="fade" style="color: #ffffff";><span style="font-size: 1.6em;font-weight: 100;">O</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">发现</span></a></div>
+            <div class="ui-block-c" style="margin-top: 8px;"><a href="#" data-transition="fade" style="color: #16a5af";><span style="font-size: 1.6em;font-weight: 100;">O</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">社区</span></a></div>
+            <div class="ui-block-d" style="margin-top: 8px;"><a href="my.html" data-transition="fade" style="color: #FFFFFF";><span style="font-size: 1.6em;font-weight: 100;">K</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">我的</span></a></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
